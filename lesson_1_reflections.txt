@@ -1,0 +1,46 @@
+Q: How did viewing a diff between two versions of a file help you see the bug 
+that was introduced?
+
+A: The diff was useful because it narrowed down the places I had to look for in
+order to find the bug. If one knows that the previous version of the file worked
+properly, then one has to look only on the parts of the new file that are
+different from the previous one.
+
+Q: How could having easy access to the entire history of a file make you a more 
+efficient programmer in the long term?
+
+A: It would be much easier to track bugs in the source code.
+
+Q: What do you think are the pros and cons of manually choosing when to create a 
+commit, like you do in Git, vs having versions automatically saved, like Google 
+Docs does?
+
+A: The great advantage of manually choosing when to add a commit is the ability 
+to make commits based on a logical set of changes. I think using Git to choose
+when to commit *and* a more automatic versioning control, like the one on Cloud9,
+which saves a version every time you save the file, can be very powerful.
+
+Q: Why do you think some version control systems, like Git, allow saving 
+multiple files in one commit, while others, like Google Docs, treat each file 
+separately?
+
+A: Git was made to control versions of source code, in which it is often 
+necessary to change multiple files to edit one aspect of the project. Google 
+Docs is not made for this scenario.
+
+Q: How can you use the commands git log and git diff to view the history of 
+files?
+
+A: git log will show the history of all commits in the repository. You find the 
+commit you want by reading the messages. After that, you compare that commit 
+with the previous one to see the changes introduced using git diff.
+
+Q: How might using version control make you more confident to make changes that 
+could break something?
+
+A: By using git checkout you are able to quickly go to a working version of the 
+file.
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+
+A: I intend to use git to help me develop web apps.

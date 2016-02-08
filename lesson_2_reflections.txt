@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+We need to initialize the repository to tell git that it needs to start tracking
+the repository. When we do that, git creates hidden directories where it will
+add its files.
