@@ -15,3 +15,9 @@ How can you use the staging area to make sure you have one commit per logical
 change?
 
 I only add the files I want to commit, i.e., the files in the same logical set.
+
+What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
+
+Branches should be great to test new features. They would avoid an excess of 
+checkouts and detached head state.
