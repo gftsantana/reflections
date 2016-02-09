@@ -26,3 +26,10 @@ Q: How do the diagrams help you visualize the branch structure?
 
 A: The diagrams function as a detailed timeline to help us understand the 
 repository.
+
+Q: What is the result of merging two branches together? Why do we represent it 
+in the diagram the way we do?
+
+A: Mergin two branches is useful both conceptually, to help us organize our code 
+history and pragmatically, because it often actually creates a new version of the
+file with all changes combined.
