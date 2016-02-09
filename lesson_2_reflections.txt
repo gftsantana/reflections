@@ -33,3 +33,9 @@ in the diagram the way we do?
 A: Mergin two branches is useful both conceptually, to help us organize our code 
 history and pragmatically, because it often actually creates a new version of the
 file with all changes combined.
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges 
+manually?
+
+A: If there isn't any conflict, why should we do the task manually ir Git can do 
+it very well automatically?
