@@ -1,23 +1,28 @@
-What happens when you initialize a repository? Why do you need to do it?
+Q: What happens when you initialize a repository? Why do you need to do it?
 
-We need to initialize the repository to tell git that it needs to start tracking
+A: We need to initialize the repository to tell git that it needs to start tracking
 the repository. When we do that, git creates hidden directories where it will
 add its files.
 
-How is the staging area different from the working directory and the repository?
+Q: How is the staging area different from the working directory and the repository?
 What value do you think it offers?
  
-The staging area is where we put the files we are tracking in the next commit.
+A: The staging area is where we put the files we are tracking in the next commit.
 It is extremely valuable because it allows us to track only what makes sense in
 a commit. 
 
-How can you use the staging area to make sure you have one commit per logical 
+Q: How can you use the staging area to make sure you have one commit per logical 
 change?
 
-I only add the files I want to commit, i.e., the files in the same logical set.
+A: I only add the files I want to commit, i.e., the files in the same logical set.
 
-What are some situations when branches would be helpful in keeping your history 
+Q: What are some situations when branches would be helpful in keeping your history 
 organized? How would branches help?
 
-Branches should be great to test new features. They would avoid an excess of 
+A: Branches should be great to test new features. They would avoid an excess of 
 checkouts and detached head state.
+
+Q: How do the diagrams help you visualize the branch structure?
+
+A: The diagrams function as a detailed timeline to help us understand the 
+repository.
